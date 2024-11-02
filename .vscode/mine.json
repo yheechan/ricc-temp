@@ -1,0 +1,21 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Python Debugger: Current File with Arguments",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "/home/yangheechan/RICC/src/main.py",
+            "console": "integratedTerminal",
+            "cwd": "/home/yangheechan/RICC/src/",
+            "args": [
+                "-t", "Facebook",
+                "-a", "ENB",
+                "-f", "newgraph_Facebook_equal_close_ENM.txt"
+            ]
+        }
+    ]
+}
